@@ -456,16 +456,18 @@ ul li {
 	margin: auto;
 	text-align: left;
 	padding-top: 5%;
-	padding-bottom: 7%;
+	padding-bottom: 2%;
+	font-family: 'Righteous', cursive;
 }
 .footer h4 {
-	font-size: 20px;
+	font-size: 15px;
 	color: #000;
 	margin: 0 0 15px 0;
 	padding: 0px;
+	font-family: 'Righteous', cursive;
 }
 .footer p {
-	font-size: 11px;
+	font-size: 14px;
 	color: #6c7279;
 }
 .footer a {
