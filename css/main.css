@@ -3,40 +3,38 @@
 	Author: Designstub
 	Author URI: http://www.designstub.com
 ------------------------------------------------------------------------------*/
-
-
-
-@import url(http://fonts.googleapis.com/css?family=Open%20Sans:300,400,500,600,700);
-/* ------------------------------------------------------------------------------
-	 Typography
--------------------------------------------------------------------------------*/
 p {
-	font-size: 14px;
-	line-height: 22.4px;
 	color: #6c7279;
+	font-size: 50px;
 }
+
 h1 {
 	font-size: 65px;
 	color: #2d3033;
+	font-family: 'Poiret One', cursive;
 }
 h2 {
 	font-size: 40px;
 	color: #2d3033;
+	font-family: 'Poiret One', cursive;
 }
 h3 {
 	font-size: 28px;
 	color: #2d3033;
 	font-weight: 300;
+	font-family: 'Poiret One', cursive;
 }
 h4 {
 	font-size: 22px;
 	color: #2d3033;
 	font-weight: 400;
+	font-family: 'Poiret One', cursive;
 }
 h5 {
 	font-size: 14px;
 	color: #2d3033;
 	text-transform: uppercase;
+	font-family: 'Poiret One', cursive;
 	font-weight: 700;
 }
 .btn {
@@ -72,7 +70,7 @@ a:hover, a:focus {
 	transition: background-color, color, 0.3s;
 }
 body {
-	font-family: "Open Sans", sans-serif;
+	font-family: 'Righteous', cursive;
 	font-weight: 400;
 	color: #6c7279;
 }
@@ -348,34 +346,17 @@ ul li {
 	margin: auto;
 	background-color: #f2f2f2;
 }
-.services h4 {
+.services h4, h5{
 	font-size: 33px;
-	line-height: 33px;
-	letter-spacing: 2px;
 	font-weight: 300;
-}
-.services h5 {
-	font-size: 21px;
-	font-weight: 300;
-	margin-bottom: 10%;
 	text-transform: none;
 }
 .services p {
 	color: #6c7279;
-	font-size: 13px;
-	font-weight: 400;
-	margin-top: 7%;
+	font-size: 15px;
+	margin-top: 5%;
 }
-.services-content {
-	margin: 50px;
-}
-.services-content li a {
-	color: #6c7279;
-	line-height: 30px;
-}
-.services-content li a:hover {
-	color: #000;
-}
+
 /* ------------------------------------------------------------------------------
 	 Portfolio
 -------------------------------------------------------------------------------*/
@@ -478,7 +459,7 @@ ul li {
 	padding-bottom: 7%;
 }
 .footer h4 {
-	font-size: 13px;
+	font-size: 20px;
 	color: #000;
 	margin: 0 0 15px 0;
 	padding: 0px;
