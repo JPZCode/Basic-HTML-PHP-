@@ -16,6 +16,8 @@ h1 {
 h2 {
 	font-size: 40px;
 	color: #2d3033;
+	margin: 0;
+	padding: 0;
 	font-family: 'Poiret One', cursive;
 }
 h3 {
@@ -82,7 +84,7 @@ ul li {
 	list-style: none;
 }
 .section {
-	padding: 100px 0;
+	padding: 90px 0;
 }
 .no-padding {
 	padding: 0;
@@ -342,19 +344,18 @@ ul li {
 	 Services
 -------------------------------------------------------------------------------*/
 .services {
-	width: 94%;
+	width: 92%;
 	margin: auto;
-	background-color: #f2f2f2;
 }
 .services h4, h5{
-	font-size: 33px;
+	font-size: 35px;
 	font-weight: 300;
 	text-transform: none;
 }
 .services p {
 	color: #6c7279;
-	font-size: 15px;
-	margin-top: 5%;
+	font-size: 16px;
+	margin-top: 4%;
 }
 
 /* ------------------------------------------------------------------------------
@@ -456,7 +457,7 @@ ul li {
 	margin: auto;
 	text-align: left;
 	padding-top: 5%;
-	padding-bottom: 2%;
+	padding-bottom: 2w%;
 	font-family: 'Righteous', cursive;
 }
 .footer h4 {
@@ -503,7 +504,7 @@ ul li {
 	margin: auto;
 }
 .work-detail-margin {
-	margin-top: 7%;
+	margin-top: 3%;
 }
 .detail-image img {
 	width: 100%;
