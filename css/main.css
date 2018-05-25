@@ -315,17 +315,17 @@ ul li {
 }
 .carousel-caption h3 {
 	font-family: "Open Sans", sans-serif;
-	color: #2d3033;
-	text-shadow: none;
-	font-size: 31px;
+	color: white;
+	text-shadow: 0px 1px 5px black;
+	font-size: 30px;
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 5px;
 }
 .carousel-caption p {
 	font-family: "Open Sans", sans-serif;
-	color: #6c7279;
-	text-shadow: none;
+	color: white;
+	text-shadow: 1px 1px 1px black;
 	font-size: 13px;
 	font-weight: 400;
 	letter-spacing: 2px;
