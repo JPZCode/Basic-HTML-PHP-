@@ -515,18 +515,26 @@ form, input {
 	width: 100%;
 }
 .detail-contentbox {
-	background-color: #f2f2f2;
-	padding: 3%;
+	background-color: #F4F4F5;
+	padding: 2%;
+}
+.detail-content h3 {
+	font-size: 30px;
+	line-height: 25px;
+	letter-spacing: 1px;
+	font-weight: 800;
 }
 .detail-content h4 {
-	font-size: 27px;
-	line-height: 27px;
-	letter-spacing: 1px;
-	font-weight: 300;
+	font-size: 25px;
+	letter-spacing: 2px;
+}
+.detail-content h5 {
+	font-size: 18px;
+	padding: 5px 0 10px;
+	margin: 0;
 }
 .detail-content p {
 	color: #6c7279;
-	font-size: 13px;
+	font-size: 15px;
 	font-weight: 400;
-	margin-top: 7%;
 }
