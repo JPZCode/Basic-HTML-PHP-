@@ -414,26 +414,26 @@ ul li {
 	 Footer
 -------------------------------------------------------------------------------*/
 .footer {
-	width: 94%;
 	margin: auto;
 	text-align: left;
 	padding-top: 5%;
-	padding-bottom: 2w%;
+	padding-bottom: 2%;
 	font-family: 'Righteous', cursive;
+	background-color: #233040;
 }
 .footer h4 {
 	font-size: 15px;
-	color: #000;
+	color: #fff;
 	margin: 0 0 15px 0;
 	padding: 0px;
 	font-family: 'Righteous', cursive;
 }
 .footer p {
 	font-size: 14px;
-	color: #6c7279;
+	color: #72898F;
 }
 .footer a {
-	color: #000;
+	color: #fff;
 }
 .footer a:hover {
 	text-decoration: underline;
@@ -447,7 +447,7 @@ ul li {
 }
 .footer .footer-share a {
 	border: none;
-	font-size: 13px;
+	font-size: 15px;
 	color: #000;
 	letter-spacing: 15px;
 }
@@ -455,6 +455,11 @@ ul li {
 	color: #e84545;
 	font-size: 11px;
 	margin: 0 2px;
+}
+
+.copyright {
+  padding: 10px;
+  background: #141D29;
 }
 
 /* ------------------------------------------------------------------------------
