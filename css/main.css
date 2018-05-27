@@ -1,7 +1,6 @@
 /* ------------------------------------------------------------------------------
-	Template Name: Auro
-	Author: Designstub
-	Author URI: http://www.designstub.com
+	Author: Jessica P. Pérez Pérez
+	Version: 2.0
 ------------------------------------------------------------------------------*/
 p {
 	color: #6c7279;
@@ -17,7 +16,7 @@ h2 {
 	font-size: 40px;
 	color: #2d3033;
 	margin: 0;
-	padding: 0;
+	padding-bottom: 10px;
 	font-family: 'Poiret One', cursive;
 }
 h3 {
@@ -38,25 +37,6 @@ h5 {
 	text-transform: uppercase;
 	font-family: 'Poiret One', cursive;
 	font-weight: 700;
-}
-.btn {
-	background-color: #333;
-	margin-top: 40px;
-	color: #fff;
-	font-size: 12px;
-	font-weight: 600;
-	letter-spacing: 1px;
-	border-radius: 0px;
-	padding: 3% 7%;
-	display: inline-block;
-	text-transform: uppercase;
-}
-.btn:hover, .btn:focus {
-	background-color: #000;
-	color: #fff;
-}
-.btn-large {
-	padding: 15px 40px;
 }
 /* ------------------------------------------------------------------------------
 	 General Style
@@ -314,19 +294,19 @@ ul li {
 	z-index: 10;
 }
 .carousel-caption h3 {
-	font-family: "Open Sans", sans-serif;
+	font-family: 'Righteous', cursive;
 	color: white;
-	text-shadow: 0px 1px 5px black;
-	font-size: 30px;
+	text-shadow: 1px 2px 5px black;
+	font-size: 45px;
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 5px;
 }
 .carousel-caption p {
-	font-family: "Open Sans", sans-serif;
+	font-family: 'Righteous', cursive;
 	color: white;
-	text-shadow: 1px 1px 1px black;
-	font-size: 13px;
+	text-shadow: 1px 2px 2px black;
+	font-size: 15px;
 	font-weight: 400;
 	letter-spacing: 2px;
 }
@@ -341,21 +321,33 @@ ul li {
 	text-shadow: none;
 }
 /* ------------------------------------------------------------------------------
-	 Services
+	 Aboute
 -------------------------------------------------------------------------------*/
-.services {
+.aboute-section{
+	padding-top: 50px;
+	padding-bottom: 90px;
+}
+.aboute {
 	width: 92%;
 	margin: auto;
+	background: #F4F4F5;
+	padding-left: 5%;
+	padding-right: 5%;
 }
-.services h4, h5{
+.aboute h4, h5{
 	font-size: 35px;
 	font-weight: 300;
 	text-transform: none;
+	margin-top: 10%;
 }
-.services p {
+.aboute h2{
+	margin-top: 5%;
+}
+
+.aboute p {
 	color: #6c7279;
 	font-size: 16px;
-	margin-top: 4%;
+	margin-top: 6%;
 }
 
 /* ------------------------------------------------------------------------------
@@ -419,37 +411,6 @@ ul li {
 	z-index: 2;
 }
 /* ------------------------------------------------------------------------------
-	 Testimonials
--------------------------------------------------------------------------------*/
-.testimonials {
-	width: 94%;
-	margin: auto;
-	background-color: #333;
-	position: relative;
-	text-align: center;
-}
-.testimonials blockquote {
-	border: 0;
-	margin: 0;
-	padding: 100px 15%;
-}
-.testimonials h1 {
-	color: #fff;
-	font: 19px "Open Sans", sans-serif;
-	font-weight: 300;
-	letter-spacing: 1px;
-}
-.testimonials p {
-	color: #fff;
-	display: block;
-	font-size: 11px;
-	font-style: normal;
-	letter-spacing: 2px;
-	font-weight: 400;
-	margin-top: 30px;
-	text-transform: uppercase;
-}
-/* ------------------------------------------------------------------------------
 	 Footer
 -------------------------------------------------------------------------------*/
 .footer {
@@ -495,6 +456,45 @@ ul li {
 	font-size: 11px;
 	margin: 0 2px;
 }
+
+/* ------------------------------------------------------------------------------
+	 Contact
+-------------------------------------------------------------------------------*/
+
+form, input {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+	border: 0;
+	outline: 0;
+	font-size: 30px;
+	font-family: 'Righteous', cursive;
+}
+
+.contat-from-wrapper { padding:0 69px; margin-top:50px}
+
+.contat-from-wrapper input[type="text"],.contat-from-wrapper input[type="email"],.contat-from-wrapper textarea{ width:100%; display:block; outline:none; border-bottom:1px solid #bbbbbb; background-color:inherit; color:#404040; font-size:21px; line-height:23px; padding-bottom:24px}
+
+.contat-from-wrapper input[type="text"]:focus,.contat-from-wrapper input[type="email"]:focus,.contat-from-wrapper textarea:focus{ border-bottom-color:#9f9e9e}
+
+.contat-from-wrapper form ::-webkit-input-placeholder { color:#404040; }
+
+.contat-from-wrapper form ::-moz-placeholder { color:#404040; } /* firefox 19+ */
+
+.contat-from-wrapper form :-ms-input-placeholder { color:#404040; } /* ie */
+
+.contat-from-wrapper form input:-moz-placeholder { color:#404040; }
+
+.contat-from-wrapper textarea{ border-bottom:1px solid #bbbbbb; border-left:none; border-right:none; border-top:none; height:77px; margin-top:56px}
+
+.contat-from-wrapper input[type="submit"]{ display:block; border:none; outline:none; width:200px; line-height:60px; text-transform:uppercase; font-size:21px; color:#FFF; font-weight:800; letter-spacing:2px; background-color:#e84d49; margin:41px auto; margin-bottom:0}
+
+.contat-from-wrapper input[type="submit"]:hover{background-color:#f8524e}
+
+
 /* ------------------------------------------------------------------------------
 	 Work Detial 
 -------------------------------------------------------------------------------*/

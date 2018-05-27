@@ -7,20 +7,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Librería</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/flexslider.css">
+  <link rel="stylesheet" href="css/freelancer.min.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/responsive.css">
-  <link rel="stylesheet" href="css/animate.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Poiret+One|Righteous&amp;subset=latin-ext" rel="stylesheet">
-
-<!-- Contact -->
-  <link href="css/style.css" rel="stylesheet" type="text/css">
-
 </head>
-
 <body>
-
   <!-- Header Section -->
   <section class="tophead" role="tophead">
     <!-- Navigation Section -->
@@ -31,7 +23,6 @@
             <li><a href="index.html">Inicio</a></li>
             <li><a href="#aboute">Nosotros</a></li>
             <li><a href="#portfolio">Productos</a></li>
-            <!--<li><a href="#testimonials">Testimonials</a></li> -->
             <li><a href="#contact">Contacto</a></li>
           </ul>
         </nav>
@@ -78,25 +69,33 @@
     </div>
   </section>
   <!-- Slider Section --> 
+
   <!-- Aboute Section -->
-  <section id="aboute" class="section services">
-    <h2 class="text-center text-uppercase text-secondary">Nosotros</h2>
-    <div class="contat-from-wrapper">
+  <section id="aboute" class="aboute-section aboute">
+    
+      <h2 class="text-center text-uppercase text-secondary">Nosotros</h2>
+      <hr class="star-dark">
       <div class="row">
         <div class="col-md-8 col-sm-8">
-          <div class="services-content">
+          <div class="aboute-content">
             <h4>Librería Qro</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure tenetur, voluptates hic deserunt possimus. Modi repudiandae fugiat adipisci, quam vitae et error placeat, nostrum amet dicta eum eos accusantium sit, eaque. Voluptatem provident, dolorum architecto, quos suscipit vel repellat reiciendis pariatur voluptatum dicta amet ab nobis quod laboriosam ullam eius.</p>
+            <p>
+              Somos una tienda dedicada a la venta de libros de cualquier genero, gusto y para todas las edades.
+              <br>
+              Nuestro proposito es brindarle un exelente servicio proporcionandole los mejor títulos de cada año, precios accesibles y las mejor atención en la busqueda de su libro.
+            </p>
           </div>
         </div>
         <div class="col-md-4 col-sm-2">
-          <div class="services-content">
-            <h5>Brand Experience</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum commodi eum expedita maiores, consequatur nisi facere cumque earum illo vitae?</p>
+          <div class="aboute-content">
+            <h4 style="margin-top: 22%;">¡Ven y disfruta!</h4>
+              <p style="padding-top: 4%; ">
+                Librería Qro está llena de historias, donde puedes venir y dar una vuelta entre los estantes para descubrir nuevas y asombrosas historias.
+              </p>
           </div>
         </div>
       </div>
-    </div>
+  
   </section>
   <!-- Service Section --> 
 
@@ -104,6 +103,7 @@
   <section id="portfolio" class="section portfolio">
     <div class="container-fluid">
       <h2 class="text-center text-uppercase text-secondary">Productos</h2>
+      <hr class="star-dark">
     </div>
     <div class="contat-from-wrapper">
       <div class="row">
@@ -220,17 +220,18 @@
   <!-- contact section -->
   <section class="section" id="contact">
       <h2 class="text-center text-uppercase text-secondary">Contacto</h2>
+      <hr class="star-dark">
     <div class="contat-from-wrapper">
-      <form method="post" action="Post" name="contact" id="cform">
+      <form method="post" action="#" >
         <div class="row">
             <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
-              <input  name="name" id="name" type="text" placeholder="¿Cuál es tu nombre?">
+              <input id="name" type="text" placeholder="¿Cuál es tu nombre?">
             </div>
             <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
-              <input  name="email" id="email" type="email"  placeholder="¿Cuál es tu correo electrónico?">
+              <input id="email" type="email"  placeholder="¿Cuál es tu correo electrónico?">
             </div>
         </div>
-        <textarea name="comments" id="comments" cols="" rows="" placeholder="Comentarios"></textarea>
+        <textarea id="comments" cols="" rows="" placeholder="Comentarios..."></textarea>
         <input name="" type="submit" value="Enviar">
       </form>
     </div>
@@ -268,8 +269,7 @@
 
 <!-- JS FILES --> 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
-<script src="js/bootstrap.min.js"></script> 
-<script src="js/jquery.flexslider-min.js"></script> 
+<script src="js/bootstrap.min.js"></script>
 <script src="js/retina.min.js"></script> 
 <script src="js/modernizr.js"></script> 
 <script src="js/main.js"></script>
